@@ -60,6 +60,7 @@ if __name__ == "__main__":
 
     logging.getLogger().setLevel(logging.INFO)
     logging.info('项目已启动')
+    logging.info(f'当前工作目录: {repo_dir}')
     logging.info(f'当前调用权重: {weights_path}')
     logging.info(f'模型推断请访问: http://localhost:{args.port}/detect/upload')
 
